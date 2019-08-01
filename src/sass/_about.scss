@@ -1,0 +1,42 @@
+.about__inner {
+  background: url("../img/macbook.png") no-repeat right;
+  min-height: 630px;
+  margin: 120px 0 90px 0;
+  padding-left: 30px;
+}
+
+.about {
+  padding-top: 110px;
+}
+
+.about__block {
+  width: 505px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__content {
+  margin-bottom: 35px;
+}
+
+.about__title {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 20px;
+  }
+  span {
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #4f5765;
+  }
+}
+
+.about__text {
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #9499a2;
+  }
+}

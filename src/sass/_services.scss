@@ -1,0 +1,82 @@
+.services {
+  background: #eeeeee;
+  //min-height: 735px;
+  .title {
+    padding-top: 160px;
+  }
+}
+
+.services__inner {
+  background: url("../img/boat.png") no-repeat top right;
+  min-height: 694px;
+}
+
+.services__tabs {
+  padding-top: 150px;
+}
+
+.tabs__panel {
+  max-width: 700px;
+  height: 200px;
+}
+
+.services__title {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 20px;
+  }
+  span {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #4f5765;
+  }
+}
+
+.services__text {
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9499a2;
+    line-height: 32px;
+  }
+}
+
+.tabs{
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  justify-content: flex-end;
+  li{
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    span{
+      font-size: 16px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 500;
+      color: #cbcccf;
+    }
+  }
+  li.is-active{
+    height: 26px;
+    width: 26px;
+    background: #64a4d7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+      color: #fff;
+    }
+  }
+}
+
+.tabs__panel {
+  display: none;
+}
+.tabs__panel.is-active {
+  display: block;
+}

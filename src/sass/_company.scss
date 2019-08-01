@@ -1,0 +1,16 @@
+.company {
+  background-color: #f8f8f8;
+  min-height: 160px;
+}
+
+.company__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-top: 60px;
+  img{
+    padding: 7px;
+  }
+}

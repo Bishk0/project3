@@ -1,0 +1,56 @@
+.footer{
+  background-color: #f9f9f9;
+  min-height: 140px;
+}
+.footer__logo{
+  padding-left: 20px;
+}
+.footer__inner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 140px;
+  justify-content: space-between;
+}
+.footer__nav{
+  display: flex;
+  align-items: center;
+  padding-right: 70px;
+  li{
+    display: inline-block;
+    a{
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #4d5664;
+      text-transform: uppercase;
+      margin-left: 30px;
+      &:hover{
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.vertical-border{
+  height: 26px;
+  width: 1px;
+  border-right: 1px solid #d3d3d3;
+  margin: 0 17px;
+}
+
+.footer__contact{
+  a{
+    font-size: 23px;
+  }
+}
+.icon-twitter{
+  color: #4cbcf6;
+}
+.icon-facebook{
+  margin: 0 25px;
+  color: #4a6daa;
+}
+.icon-google{
+  color: #e74c40;
+}
